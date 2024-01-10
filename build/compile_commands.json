@@ -1,0 +1,8 @@
+[
+{
+  "directory": "D:/C++Code/build",
+  "command": "D:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\Code.dir\\src\\main.cpp.obj -c D:\\C++Code\\src\\main.cpp",
+  "file": "D:/C++Code/src/main.cpp",
+  "output": "CMakeFiles/Code.dir/src/main.cpp.obj"
+}
+]
