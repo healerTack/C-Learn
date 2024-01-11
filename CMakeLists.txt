@@ -1,7 +1,11 @@
 cmake_minimum_required(VERSION 3.20.0)
 project(Code)
 
-add_executable(Code src/main.cpp)
+file(GLOB SRC ${PROJECT_SOURCE_DIR}/src/*.cpp)
+
+set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/outFile)
+
+add_executable(Code ${SRC})
 
 
 
