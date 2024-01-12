@@ -1,0 +1,2 @@
+D:\mingw64\bin\ar.exe qc D:\CMakeLearn\standardexample\lib\libanimalStatic.a CMakeFiles/animalStatic.dir/src/cat.cpp.obj CMakeFiles/animalStatic.dir/src/dog.cpp.obj
+D:\mingw64\bin\ranlib.exe D:\CMakeLearn\standardexample\lib\libanimalStatic.a

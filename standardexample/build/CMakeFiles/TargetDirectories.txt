@@ -1,0 +1,6 @@
+D:/CMakeLearn/standardexample/build/CMakeFiles/animalStatic.dir
+D:/CMakeLearn/standardexample/build/CMakeFiles/animalShared.dir
+D:/CMakeLearn/standardexample/build/CMakeFiles/app_static.dir
+D:/CMakeLearn/standardexample/build/CMakeFiles/app_shared.dir
+D:/CMakeLearn/standardexample/build/CMakeFiles/edit_cache.dir
+D:/CMakeLearn/standardexample/build/CMakeFiles/rebuild_cache.dir
