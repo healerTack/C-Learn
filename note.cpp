@@ -2,7 +2,8 @@
 #include <iostream>
 #include <string>// 参考python的string类型
 
-#include <array>// 类似list
+// array和vector均类似python中的list
+#include <array>
 #include <vector>
 
 using namespace std;
@@ -41,7 +42,7 @@ int main() {
         black = 6
     };
 
-    // 使用new和delete来对指针变量赋予内存和释放内存
+    // 指针； 使用new和delete来对指针变量赋予内存和释放内存
     // 单个变量
     int *ps = new int;
     *ps = 10;
@@ -84,4 +85,7 @@ int main() {
     string line;
     getline(fin, line);
     fin.close();
+
+    // 函数传参：可以使用const保护传入参数，防止被修改
+    // C++中在函数中修改数组可以直接传入修改，利用const防止被修改
 }
