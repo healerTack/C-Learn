@@ -1,11 +1,11 @@
 CMakeFiles/Code.dir/main.cpp.obj: D:\C++Code\learn_project\main.cpp \
- D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/fstream \
- D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream \
- D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios \
- D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iosfwd \
+ D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream \
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
+ D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream \
+ D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios \
+ D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iosfwd \
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stringfwd.h \
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/memoryfwd.h \
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/postypes.h \
@@ -112,11 +112,6 @@ CMakeFiles/Code.dir/main.cpp.obj: D:\C++Code\learn_project\main.cpp \
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets.tcc \
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.tcc \
- D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream \
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc \
- D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc \
- D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/codecvt.h \
- D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
- D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
- D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/fstream.tcc \
- D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream
+ D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream \
+ D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc

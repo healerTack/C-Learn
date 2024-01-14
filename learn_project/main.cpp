@@ -1,41 +1,26 @@
-#include <fstream>
 #include <iostream>
 using namespace std;
 
-int main() {
-    string filename;
-    ifstream fin;
-    getline(cin, filename);
-    fin.open(filename);
-    if (!fin.is_open()) {
-        cout << "Couldn't open the file " << filename << endl;
-        cout << "Program terminating" << endl;
-        exit(EXIT_FAILURE);
-    }
-    double value;
-    double sum = 0.0;
-    int count = 0;
+#define bigger(a, b) a>b?a:b;
 
-    fin >> value;
-    while (fin.good()) {
-        count++;
-        sum += value;
-        fin >> value;
-    }
-    if(fin.eof()){
-        cout << "End of file reached." << endl;
-    }else if(fin.fail()){
-        cout << "Input terminated by data mismatch." << endl;
-    }else{
-        cout << "Input terminated for unknown reason." << endl;
-    }
-    if(count == 0){
-        cout << "No data processed" << endl;
-    }else{
-        cout << "Items read: " << count <<endl;
-        cout << "Sum: " << sum << endl;
-        cout << "Average: " << sum/count << endl;
-    }
-    fin.close();
+void cheers(int n); // 发出n次cheers
+double cube(double x); // 计算x的三次方
+
+int main(int argc, char const * argv[]){
+    int a = bigger(1, 2);
+    cout << a << endl;
+    cheers(a);
+    cout << cube(a) << endl;
     return 0;
+}
+
+void cheers(int n){
+    for(int i=0; i<n; i++){
+        cout << "Cheers!";
+    }
+    cout << endl;
+}
+
+double cube(double x){
+    return x*x*x;
 }
