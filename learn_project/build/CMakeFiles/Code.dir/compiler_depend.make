@@ -118,9 +118,9 @@ CMakeFiles/Code.dir/main.cpp.obj: D:/C++Code/learn_project/main.cpp \
   D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc \
   D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream \
   D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc \
-  D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstring \
-  D:/mingw64/x86_64-w64-mingw32/include/string.h \
-  D:/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h
+  D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/array \
+  D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/utility \
+  D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_relops.h
 
 
 D:/C++Code/learn_project/main.cpp:
@@ -281,8 +281,6 @@ D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/
 
 D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/string:
 
-D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstring:
-
 D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/allocator.h:
 
 D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h:
@@ -359,6 +357,8 @@ D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc:
 
 D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc:
 
-D:/mingw64/x86_64-w64-mingw32/include/string.h:
+D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/array:
 
-D:/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h:
+D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/utility:
+
+D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_relops.h:

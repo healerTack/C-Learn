@@ -87,5 +87,29 @@ int main() {
     fin.close();
 
     // 函数传参：可以使用const保护传入参数，防止被修改
-    // C++中在函数中修改数组可以直接传入修改，利用const防止被修改
+    // C++中在函数中修改数组int[]可以直接传入修改，利用const防止被修改
+    // 使用指针和const时的组合区别：
+    // 1. cont void* p   不可以修改p指向的值，可以让p指向另一个变量
+    // 2. void* const p  不可以让p指向另一个变量，可以修改p指向的值
+    // C++中的array类型有使用和引用的区别：需要修改值则需要传入指针，使用值时直接传名
+
+    // 使用数组区间函数
+    int sum(const int* begin, const int* end){
+        const int* p;
+        int total = 0;
+        for(p = begin; p != end; p++)
+            total += *p;
+        return total;
+    }
+
+    // 函数指针：指向函数的指针
+    double (*pf)(int); // 一个指向返回double的函数的指针
+    double *pf (int);  // 一个返回指向double指针的函数
+
+    // 内联函数：inline  可以使用内联函数就尽量不用宏函数
+    inline double square(double x){return x*x;}
+
+    // 引用int & x1 = a;  指针int * x2 = &a;
+    // 引用类似于const指针，必须在声明时初始化，而指针可以声明后初始化
+
 }
