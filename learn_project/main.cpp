@@ -50,8 +50,6 @@ int main(int argc, char const * argv[]){
     swapp(&wallet1, &wallet2);
     cout << "wallet1 = $" << wallet1 << " and wallet2 = $" << wallet2 << endl;
     
-
-
     return 0;
 }
 
