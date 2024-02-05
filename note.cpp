@@ -8,6 +8,8 @@
 
 using namespace std;
 
+const long long MAX = 10e6;
+
 int main() {
     // 字符串读取 char数组类型
     char str[100];
@@ -111,5 +113,7 @@ int main() {
 
     // 引用int & x1 = a;  指针int * x2 = &a;
     // 引用类似于const指针，必须在声明时初始化，而指针可以声明后初始化
+
+    // 使用nullptr表示空指针
 
 }

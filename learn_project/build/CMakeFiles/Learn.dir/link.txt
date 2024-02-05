@@ -1,0 +1,2 @@
+D:\mingw64\bin\ar.exe qc D:\C++Code\learn_project\lib\libLearn.a CMakeFiles/Learn.dir/src/chain.cpp.obj CMakeFiles/Learn.dir/src/learn.cpp.obj CMakeFiles/Learn.dir/src/list.cpp.obj
+D:\mingw64\bin\ranlib.exe D:\C++Code\learn_project\lib\libLearn.a

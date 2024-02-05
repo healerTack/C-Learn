@@ -3,7 +3,8 @@
 #include <string>
 using namespace std;
 
-class Cat{
-    public:
+class Cat
+{
+public:
     string barking();
 };

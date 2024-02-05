@@ -1,2 +1,2 @@
-# Empty dependencies file for Code.
+# Empty dependencies file for code.
 # This may be replaced when dependencies are built.

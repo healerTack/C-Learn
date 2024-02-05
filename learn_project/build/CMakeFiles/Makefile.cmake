@@ -132,5 +132,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/Code.dir/DependInfo.cmake"
+  "CMakeFiles/Learn.dir/DependInfo.cmake"
+  "CMakeFiles/code.dir/DependInfo.cmake"
   )

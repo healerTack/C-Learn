@@ -116,24 +116,37 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Code
+# Target rules for targets named Learn
 
 # Build rule for target.
-Code: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Code
-.PHONY : Code
+Learn: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Learn
+.PHONY : Learn
 
 # fast build rule for target.
-Code/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code.dir\build.make CMakeFiles/Code.dir/build
-.PHONY : Code/fast
+Learn/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Learn.dir\build.make CMakeFiles/Learn.dir/build
+.PHONY : Learn/fast
+
+#=============================================================================
+# Target rules for targets named code
+
+# Build rule for target.
+code: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 code
+.PHONY : code
+
+# fast build rule for target.
+code/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/build
+.PHONY : code/fast
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code.dir\build.make CMakeFiles/Code.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -141,7 +154,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code.dir\build.make CMakeFiles/Code.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -149,8 +162,80 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code.dir\build.make CMakeFiles/Code.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+src/chain.obj: src/chain.cpp.obj
+.PHONY : src/chain.obj
+
+# target to build an object file
+src/chain.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Learn.dir\build.make CMakeFiles/Learn.dir/src/chain.cpp.obj
+.PHONY : src/chain.cpp.obj
+
+src/chain.i: src/chain.cpp.i
+.PHONY : src/chain.i
+
+# target to preprocess a source file
+src/chain.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Learn.dir\build.make CMakeFiles/Learn.dir/src/chain.cpp.i
+.PHONY : src/chain.cpp.i
+
+src/chain.s: src/chain.cpp.s
+.PHONY : src/chain.s
+
+# target to generate assembly for a file
+src/chain.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Learn.dir\build.make CMakeFiles/Learn.dir/src/chain.cpp.s
+.PHONY : src/chain.cpp.s
+
+src/learn.obj: src/learn.cpp.obj
+.PHONY : src/learn.obj
+
+# target to build an object file
+src/learn.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Learn.dir\build.make CMakeFiles/Learn.dir/src/learn.cpp.obj
+.PHONY : src/learn.cpp.obj
+
+src/learn.i: src/learn.cpp.i
+.PHONY : src/learn.i
+
+# target to preprocess a source file
+src/learn.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Learn.dir\build.make CMakeFiles/Learn.dir/src/learn.cpp.i
+.PHONY : src/learn.cpp.i
+
+src/learn.s: src/learn.cpp.s
+.PHONY : src/learn.s
+
+# target to generate assembly for a file
+src/learn.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Learn.dir\build.make CMakeFiles/Learn.dir/src/learn.cpp.s
+.PHONY : src/learn.cpp.s
+
+src/list.obj: src/list.cpp.obj
+.PHONY : src/list.obj
+
+# target to build an object file
+src/list.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Learn.dir\build.make CMakeFiles/Learn.dir/src/list.cpp.obj
+.PHONY : src/list.cpp.obj
+
+src/list.i: src/list.cpp.i
+.PHONY : src/list.i
+
+# target to preprocess a source file
+src/list.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Learn.dir\build.make CMakeFiles/Learn.dir/src/list.cpp.i
+.PHONY : src/list.cpp.i
+
+src/list.s: src/list.cpp.s
+.PHONY : src/list.s
+
+# target to generate assembly for a file
+src/list.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Learn.dir\build.make CMakeFiles/Learn.dir/src/list.cpp.s
+.PHONY : src/list.cpp.s
 
 # Help Target
 help:
@@ -160,10 +245,20 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Code
+	@echo ... Learn
+	@echo ... code
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... src/chain.obj
+	@echo ... src/chain.i
+	@echo ... src/chain.s
+	@echo ... src/learn.obj
+	@echo ... src/learn.i
+	@echo ... src/learn.s
+	@echo ... src/list.obj
+	@echo ... src/list.i
+	@echo ... src/list.s
 .PHONY : help
 
 

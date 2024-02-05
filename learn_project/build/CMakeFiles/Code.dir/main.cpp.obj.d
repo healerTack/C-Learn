@@ -1,4 +1,4 @@
-CMakeFiles/Code.dir/main.cpp.obj: D:\C++Code\learn_project\main.cpp \
+CMakeFiles/code.dir/main.cpp.obj: D:\C++Code\learn_project\main.cpp \
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream \
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
@@ -115,6 +115,4 @@ CMakeFiles/Code.dir/main.cpp.obj: D:\C++Code\learn_project\main.cpp \
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc \
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream \
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc \
- D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/array \
- D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/utility \
- D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_relops.h
+ D:/C++Code/learn_project/include/chain.h
