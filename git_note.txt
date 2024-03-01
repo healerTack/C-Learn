@@ -1,0 +1,8 @@
+文件夹建立本地git库： git init
+查看文件是否入库： git status
+将项目文件存入缓存： git add .
+将项目文件从缓存存入仓库： git commit -m "备注"
+关联远程库： git remote add origin https://github.com/---
+将本地库中的项目文件上传： git push -u origin master
+
+将远程仓库关联本地： git clone https://github.com/---
